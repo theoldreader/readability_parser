@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.cert_chain  = ['certs/pdionne-gem-public_cert.pem']
   gem.signing_key = File.expand_path("~/.gem/pdionne-gem-private_key.pem") if $0 =~ /gem\z/
 
-  gem.add_dependency "faraday", "~> 0.8.4"
+  gem.add_dependency "faraday", "~> 0.9.0"
   gem.add_dependency "faraday_middleware", "~> 0.9.0"
   gem.add_dependency "hashie", "~> 2.0.5"
   gem.add_dependency "multi_xml", "~> 0.5.2"
